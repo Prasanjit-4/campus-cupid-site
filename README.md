@@ -38,3 +38,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Export as Static Website
+
+```
+npm run build
+
+```
+
+## HOST static site on S3
+
+- Enable Static Website Hosting from Properties > Static Website Hosting
+- Simply upload all the generated files and folders in ./out folder from the previous step.
+- After upload is successful link to the site can be found in Static Website Hosting
+
+
+
